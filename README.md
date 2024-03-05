@@ -1,0 +1,1 @@
+# AtliQ_Hardware_Data_Analytics_Project
