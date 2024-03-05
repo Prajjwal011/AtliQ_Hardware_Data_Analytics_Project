@@ -1,5 +1,8 @@
 # AtliQ_Hardware_Data_Analytics_Project
 
+#Introduction
+This project aims to address the data management challenges faced by AtliQ Hardware through the implementation of a comprehensive data analytics solution
+
 # Problem Statement
 The AtliQ Hardware Sales Insights Project endeavors to transform the way the company navigates its sales landscape. 
 
