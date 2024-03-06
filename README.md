@@ -23,6 +23,9 @@ Success Criteria (Cost reduction by 10%, streamlined Excel-based operations, and
 # Sales Insight Using SQL 
 
 ![MySQL Workbench 06-03-2024 21_09_45](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/423a9e7c-8389-4430-bc50-6e268b604a2d)
+![YouTube - (346) Power BI Project For Beginners _ Sales Insights Data Analysis Project - 3 - Data Analysis Using SQL - YouTube 06-03-2024 21_16_23](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/de70c621-1919-41b4-91b9-52fd33cd2d39)
+![YouTube - (346) Power BI Project For Beginners _ Sales Insights Data Analysis Project - 3 - Data Analysis Using SQL - YouTube 06-03-2024 21_16_40](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/1deb382e-434d-4acb-9195-c237c3a42312)
+
 
 
 
