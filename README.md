@@ -13,9 +13,16 @@ Our project objective is to provide AtliQ Hardware with a Power BI dashboard, of
 The project invites contributions for dashboard development, insights sharing, and collaborative feedback, aiming to empower the Sales Director and the organization with actionable insights for sustainable growth. Your valuable contributions are crucial to the success of this initiative! 🚀
 
 # Project Planning with AIMS Grid
-## AIMS Grid
+## AIMS Grid (Project Management Tool)
 Four components of AIMS grid:
-Purpose (What do we want to do exactly)
-Stakeholders
-End Result
-Success Criteria
+Purpose (Identifying pain points and defining project objectives)
+Stakeholders (Involvement of marketing, sales, IT, and data analytics teams)
+End Result (Creating a dynamic Power BI dashboard for real-time sales insights) 
+Success Criteria (Cost reduction by 10%, streamlined Excel-based operations, and a 5% increase in sales personnel)
+
+# Sales Insight Using SQL 
+
+![MySQL Workbench 06-03-2024 21_09_45](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/423a9e7c-8389-4430-bc50-6e268b604a2d)
+
+
+
