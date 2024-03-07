@@ -88,7 +88,7 @@ Understand the concept of a "star schema" in data modeling, where fact tables (t
 
 # Data Analysis and Visualization
 
-Key Measures used for visualization are:
+Key Measures used are:
 
       Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
       
@@ -113,3 +113,21 @@ Profit Target:
     
     Target Diff = [Profit Margin %]-'Profit Target1'[Profit Target Value]
     Build Dashboard Or a Report:
+
+## Dashboard Containing all the Visualizations
+
+![data analysis 05-03-2024 13_32_22](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/170e5ebf-9e9c-4c5f-bb4f-ec1954ac4969)
+![data analysis 05-03-2024 13_32_31](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/5a91554d-206c-4bfc-96d0-23b31829052a)
+![data analysis 05-03-2024 13_32_40](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/a256aa1b-afe8-4274-8625-bf1365a81873)
+
+# Tools and Software Used: 
+MySQL
+
+Power Bi
+
+Power Query Editor
+
+DAX language
+
+
+
