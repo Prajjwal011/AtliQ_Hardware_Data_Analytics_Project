@@ -12,6 +12,20 @@ Our project objective is to provide AtliQ Hardware with a Power BI dashboard, of
 
 The project invites contributions for dashboard development, insights sharing, and collaborative feedback, aiming to empower the Sales Director and the organization with actionable insights for sustainable growth. Your valuable contributions are crucial to the success of this initiative! 🚀
 
+# Steps of Data Analysis 
+
+1) Requirement Gathering
+
+2) Data Collection
+
+3) Data Preparation
+
+4) Data Modeling
+
+5) Dashboard Building
+
+6) Deployment
+
 # Project Planning with AIMS Grid
 ## AIMS Grid (Project Management Tool)
 Four components of AIMS grid:
