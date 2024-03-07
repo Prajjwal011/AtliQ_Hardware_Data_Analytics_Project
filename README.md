@@ -26,7 +26,43 @@ Success Criteria (Cost reduction by 10%, streamlined Excel-based operations, and
 ![YouTube - (346) Power BI Project For Beginners _ Sales Insights Data Analysis Project - 3 - Data Analysis Using SQL - YouTube 06-03-2024 21_16_23](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/de70c621-1919-41b4-91b9-52fd33cd2d39)
 ![YouTube - (346) Power BI Project For Beginners _ Sales Insights Data Analysis Project - 3 - Data Analysis Using SQL - YouTube 06-03-2024 21_16_40](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/1deb382e-434d-4acb-9195-c237c3a42312)
 
+## SQL Queries Used for Sales Insights
 
+1.To find transactions in 2020 
+
+SELECT sales.transactions.*, sales.date.* FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020;
+
+2.To find transactions in 2019 
+
+SELECT sales.transactions.*, sales.date.* FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2019;
+
+3.To find total revenue in year 2020
+
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r";
+
+4.To find total revenue in year 2019
+
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2019 and sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r";
+
+5.To find total revenue in Jan 2020  
+
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.date.month_name="January" and (sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r");
+
+6.To find total revenue in Feb 2020 
+
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.date.month_name="February" and (sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r");
+
+7.To find total revenue in Jan 2019
+
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.date.month_name="January" and (sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r");
+
+8.To find total revenue in year 2020 in Chennai
+
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.market_code="Mark001";
+
+9.To find total revenue in year 2020 in Mumbai
+
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.market_code="Mark002";
 
 
 
