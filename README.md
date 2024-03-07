@@ -85,3 +85,31 @@ Now, Establishing relationships between tables using Power BI's Data Model. This
 Understand the concept of a "star schema" in data modeling, where fact tables (transactions) are linked to dimension tables (e.g., customers, products).
 
 ![data analysis 07-03-2024 15_24_45](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/0967c379-407b-4a92-9914-04d3120ef1aa)
+
+# Data Analysis and Visualization
+
+Key Measures used for visualization are:
+
+      Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
+      
+      Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales 
+      customers'),ALL('sales markets')))
+      
+      Revenue = SUM('sales transactions'[sales_amount])
+      
+      Revenue Contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+      
+      Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+      
+      sales quntity = SUM('sales transactions'[sales_qty])
+      
+      Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
+
+Profit Target:
+
+    Profit Target1 = GENERATESERIES(-0.05, 0.15, 0.01)
+    
+    Profit Target Value = SELECTEDVALUE('Profit Target1'[Profit Target])
+    
+    Target Diff = [Profit Margin %]-'Profit Target1'[Profit Target Value]
+    Build Dashboard Or a Report:
