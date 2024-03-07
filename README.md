@@ -65,5 +65,17 @@ SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN s
 
 SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.market_code="Mark002";
 
+# Data Cleaning and Transformation Using Power BI
 
+## Step 1: Connect MY SQL database with Power BI and load the data into Power BI
+
+## Step 2: The focus now is on data cleaning and transformation, commonly known as ETL (Extract, Transform, Load)
+
+### Navigate to the Power Query Editor by clicking on "Transform Data."
+
+a) Filtering Unnecessary Data: Identify tables that may contain irrelevant data. For instance, filter out irrelevant zones like New York and Paris.
+
+b) Handling Negative or Zero Sales Amounts : Identify and filter out rows with negative or zero sales amounts in the Sales Transaction table
+
+c) Currency Conversion : Add a new column called "Normalized Sales Amount" to convert all sales amounts into Indian Rupees (INR).
 
