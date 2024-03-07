@@ -79,3 +79,9 @@ b) Handling Negative or Zero Sales Amounts : Identify and filter out rows with n
 
 c) Currency Conversion : Add a new column called "Normalized Sales Amount" to convert all sales amounts into Indian Rupees (INR).
 
+# Data Modeling
+
+Now, Establishing relationships between tables using Power BI's Data Model. This ensures a structured and interconnected dataset.
+Understand the concept of a "star schema" in data modeling, where fact tables (transactions) are linked to dimension tables (e.g., customers, products).
+
+![data analysis 07-03-2024 15_24_45](https://github.com/Prajjwal011/AtliQ_Hardware_Data_Analytics_Project/assets/140709421/0967c379-407b-4a92-9914-04d3120ef1aa)
