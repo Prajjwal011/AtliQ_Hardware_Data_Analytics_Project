@@ -1,5 +1,7 @@
 # AtliQ_Hardware_Data_Analytics_Project 📈
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/sql-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
 
 # Introduction
 This project aims to address the data management challenges faced by AtliQ Hardware through the implementation of a comprehensive data analytics solution
